@@ -1,0 +1,14 @@
+/home/akanbi/RiderProjects/secondConsoleApp/bin/Debug/net8.0/secondConsoleApp
+/home/akanbi/RiderProjects/secondConsoleApp/bin/Debug/net8.0/secondConsoleApp.deps.json
+/home/akanbi/RiderProjects/secondConsoleApp/bin/Debug/net8.0/secondConsoleApp.runtimeconfig.json
+/home/akanbi/RiderProjects/secondConsoleApp/bin/Debug/net8.0/secondConsoleApp.dll
+/home/akanbi/RiderProjects/secondConsoleApp/bin/Debug/net8.0/secondConsoleApp.pdb
+/home/akanbi/RiderProjects/secondConsoleApp/obj/Debug/net8.0/secondConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/akanbi/RiderProjects/secondConsoleApp/obj/Debug/net8.0/secondConsoleApp.AssemblyInfoInputs.cache
+/home/akanbi/RiderProjects/secondConsoleApp/obj/Debug/net8.0/secondConsoleApp.AssemblyInfo.cs
+/home/akanbi/RiderProjects/secondConsoleApp/obj/Debug/net8.0/secondConsoleApp.csproj.CoreCompileInputs.cache
+/home/akanbi/RiderProjects/secondConsoleApp/obj/Debug/net8.0/secondConsoleApp.dll
+/home/akanbi/RiderProjects/secondConsoleApp/obj/Debug/net8.0/refint/secondConsoleApp.dll
+/home/akanbi/RiderProjects/secondConsoleApp/obj/Debug/net8.0/secondConsoleApp.pdb
+/home/akanbi/RiderProjects/secondConsoleApp/obj/Debug/net8.0/secondConsoleApp.genruntimeconfig.cache
+/home/akanbi/RiderProjects/secondConsoleApp/obj/Debug/net8.0/ref/secondConsoleApp.dll
