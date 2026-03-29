@@ -115,12 +115,53 @@ Console.WriteLine(substractionResult);
 */
 
 
-Console.WriteLine("-----------------------------");
-var lapoCust1 = new LapoCustomer("Lekan", "7037147031"); // Class with constructor
+// Console.WriteLine("-----------------------------");
+// var lapoCust1 = new LapoCustomer("Lekan", "7037147031"); // Class with constructor
 
 //Console.WriteLine($"{lapoCust1.Name},{lapoCust1.AccountNumber},{lapoCust1.CreatedAt}");
 
+var running = true;
+while (running)
+{
+    Console.WriteLine("1. Create Customer");
+    Console.WriteLine("2. View Customers");
+    Console.WriteLine("3. Update Customer");
+    Console.WriteLine("4. Delete Customer");
+    Console.WriteLine("5. Exit");
+    Console.Write("Enter your choice : ");
+    var choice = Console.ReadLine();
 
-
+    switch (choice)
+    {
+        case "1":
+            Console.Write("Enter custumer name : ");
+            string name = Console.ReadLine();
+            
+            LapoCustomerService.CreateCustumer(name);
+            break;
+        case "2":
+            LapoCustomerService.ViewCustomers();
+            break;
+        case "3":
+            Console.Write("enter custumer account number : ");
+            string acctno = Console.ReadLine();
+            Console.Write("enter new custumer name : ");
+            string changedname = Console.ReadLine();
+            LapoCustomerService.UpdateCustomer(acctno, changedname);
+            break;
+        case "4":
+            Console.Write("enter custumer account number : ");
+            string acct = Console.ReadLine();
+            LapoCustomerService.DeleteCustomer(acct);
+            break;
+        case "5" :
+            running = false;
+            Console.WriteLine("Exiting the program");
+            return;
+        default:
+            Console.WriteLine("Invalid choice");
+            break;
+    }
+}
 
 
