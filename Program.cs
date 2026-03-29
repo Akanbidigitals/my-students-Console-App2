@@ -69,7 +69,7 @@ Console.WriteLine(additionResult);*/
 
 
 
-var customer1 = new Customer(); // object for customer
+/*var customer1 = new Customer(); // object for customer
 
 Console.WriteLine("-----------------------------");
 Console.WriteLine("====>Welcome to Lapo Bank<====");
@@ -97,8 +97,30 @@ Console.WriteLine($"First name: {customer1.FirstName}");
 Console.WriteLine($"Last name: {customer1.LastName}");
 Console.WriteLine($"Email: {customer1.Email}");
 Console.WriteLine($"Account number: {customer1.AccountNumber}");
-Console.WriteLine($"Account created time and date : {customer1.CreatedAt}");
+Console.WriteLine($"Account created time and date : {customer1.CreatedAt}");*/
 
+
+
+/*
+Console.WriteLine("-----------------------------");
+
+var calc = new Calculator(); //  is not a static class
+Console.WriteLine("------Addition Result------");
+var addResult = SciFiCalculator.Add(2, 3);
+Console.WriteLine(addResult);
+Console.WriteLine("-----------------------------");
+Console.WriteLine("------Substraction Result------");
+var substractionResult = SciFiCalculator.Subtraction(10, 6);
+Console.WriteLine(substractionResult);
+*/
 
 
 Console.WriteLine("-----------------------------");
+var lapoCust1 = new LapoCustomer("Lekan", "7037147031"); // Class with constructor
+
+//Console.WriteLine($"{lapoCust1.Name},{lapoCust1.AccountNumber},{lapoCust1.CreatedAt}");
+
+
+
+
+

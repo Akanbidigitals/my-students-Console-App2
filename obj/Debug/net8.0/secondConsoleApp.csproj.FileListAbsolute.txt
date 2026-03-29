@@ -12,3 +12,4 @@
 /home/akanbi/RiderProjects/secondConsoleApp/obj/Debug/net8.0/secondConsoleApp.pdb
 /home/akanbi/RiderProjects/secondConsoleApp/obj/Debug/net8.0/secondConsoleApp.genruntimeconfig.cache
 /home/akanbi/RiderProjects/secondConsoleApp/obj/Debug/net8.0/ref/secondConsoleApp.dll
+/home/akanbi/RiderProjects/secondConsoleApp/obj/Debug/net8.0/secondConsoleApp.sourcelink.json
